@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Oswald:wght@300;400&family=Poppins:wght@100;300&family=Roboto:wght@100;300&display=swap');
+
+body{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+}
+.list, a{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    font-weight: 300;
+}
+.list1, .list2{
+    margin: 0px 10px;
+}
+h3, a{
+    color:rgb(12, 35, 58);
+}
+a:hover{
+    color: rgba(20, 50, 100, 0.8);
+    font-weight: 300;
+    transform: scale(150%);
+}
+h3:hover{
+    color: rgba(20, 50, 100, 0.8);
+    cursor: pointer;
+}
+.container{
+ height: 200px;
+ width: 500px;
+ position: absolute;
+ top:0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: auto;
+}
+.btn{
+    padding: 7px;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 4px;
+    left: 170px;
+    position: absolute;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    padding: 10px;
+    border-radius: 5px;
+}
